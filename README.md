@@ -10,7 +10,7 @@ python 3.8 or any python compatible with tensorflow
 4. To get the output or Y value use the below url by sending the xvalue as you desire. Send only numerical values.
 	http://localhost:5000/predict?xvalue=50.50
 	
-	http://localhost:5000/predict?xvalue=<your desired value>
+	http://localhost:5000/predict?xvalue=yourdesiredvalue
 
 
 # mlapi-rest-docker
