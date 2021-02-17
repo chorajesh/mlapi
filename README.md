@@ -1,4 +1,18 @@
-# python-rest-api-docker
+# running locally without docker
+
+Requirements:
+python 3.8 or any python compatible with tensorflow
+
+1. Install all the packages mentioned in the requirements.txt file using pip install <packagename>
+2. Execute or run the run.py using the below command.
+	python run.py
+3. The api runs at http://0.0.0.0:5000
+4. To get the output or Y value use the below url by sending the xvalue as you desire. Send only numerical values.
+	http://localhost:5000/predict?xvalue=50.50
+	http://localhost:5000/predict?xvalue=<your desired value>
+
+
+# mlapi-rest-docker
 
 steps to run the sample rest service on docker -
 

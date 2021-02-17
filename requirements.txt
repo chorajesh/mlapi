@@ -3,3 +3,4 @@ tensorflow-hub
 flask
 Flask
 requests
+matplotlib
